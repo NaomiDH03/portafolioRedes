@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 5 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Responsive navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#!">Redes digitales</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../../">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../../teorico/">Teórico</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../../lab/">Laboratorio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../../conocenos/">Conócenos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de redes digitales</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Entradas y salidas digitales</h1>
+
+                    </header>
+                </div>
+            </section>
+            
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">En la era de la conectividad y la Internet de las Cosas (IoT), la capacidad de comprender y manipular dispositivos digitales se ha vuelto esencial. En este contexto, el módulo NodeMCU ESP8266 o ESP32 se erige como una pieza fundamental, 
+                            proporcionando una plataforma versátil y poderosa para el desarrollo de proyectos IoT. El conocimiento profundo sobre sus funcionalidades, especialmente en lo que respecta a las entradas y salidas digitales, se convierte en un objetivo clave para aquellos que desean explorar todo su potencial.
+                            Por eso, el objetivo general de esta práctica es  adentrarse en el mundo de las entradas y salidas digitales del NodeMCU ESP8266 o ESP32
+                        </p>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Desarrollo -</h2>
+                        <p><b>1. Configuración del IDE de Arduino para programar el NodeMCU</b></p>
+                        <p>Si no se tiene instalado todavía, descargar el IDE de Arduino y hacer las configuraciones necesarias para poder programar el NodeMCU directamente desde el entorno del arduino.</p>
+                        <p><b>2. Revisión del pinout y GPIO disponibles</b></p>
+                        <p>Para esto, se consulta el datasheet o la documentación del NodeMCU para obtener el pinout y se identifican los pines GPIO disponibles para conectar dispositivos externos.</p>
+                        <p><b>3. Desarrollo del programa de encendido de un LED</b></p>
+                        <p>Se conecta un LED al pin GPIO que se requiera y en el programa se configura como el pin de salida para encenderlo.</p>
+                        <p><b>4. Desarrollo del programa de apagado de un LED</b></p>
+                        <p>Es lo mismo que el punto pasado, solo que ahora se apaga el LED.</p>
+                        <p><b>5. Desarrollo del programa de encendido y apagado de un LED mediante retardos</b></p>
+                        <p>Se utiliza la función delay() para poder crear estos retardos entre encendido y apagago en el LED.</p>
+                        <p><b>6. Desarrollo del sistema de encendido y apagado de un LED mediante el uso de botones</b></p>
+                        <p>Se conectan dos botones a los pones GPIO y se programan para que el LED se encienda cuando uno de los botones esté presionado y se pague cuando se deje de presionar </p>
+                        <p><b>7. Desarrollo del sistema de encendido y apagado de un LED mediante el uso de dos botones y una condicional OR y después con una condicional AND</b></p>
+                        <p>Tanto el OR como el AND pueden ser desarrollados de maneras similares al encendido y apagado con botones, pues ya solo se usan estas condiciones lógicas.</p>
+
+                    <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resultados -</h2>
+                    
+                    <p id="video">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" ><li>LED encendido</li></h2>
+                        <center>
+                            <video width="640" height="360" controls>
+                                <source src="vid/LEDencendido.mp4" type="video/mp4">
+                        </center>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" ><li>LED apagado</li></h2>
+                        <center>
+                            <video width="640" height="360" controls>
+                                <source src="vid/LEDapagado.mp4" type="video/mp4">
+                        </center>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" ><li>LED intermitente</li></h2>
+                        <center>
+                            <video width="640" height="360" controls>
+                                <source src="vid/DelayLED.mp4" type="video/mp4">
+                        </center>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" ><li>LED botones</li></h2>
+                        <center>
+                            <video width="640" height="360" controls>
+                                <source src="vid/LEDboton.mp4" type="video/mp4">
+                        </center>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" ><li>LED OR</li></h2>
+                        <center>
+                            <video width="640" height="360" controls>
+                                <source src="vid/LEDor.mp4" type="video/mp4">
+                        </center>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" ><li>LED AND</li></h2>
+                        <center>
+                            <video width="640" height="360" controls>
+                                <source src="vid/LEDand.mp4" type="video/mp4">
+                        </center>
+
+                    <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Conclusión -</h2>
+                    <p>El proceso de configuración y programación del NodeMCU ESP8266 o ESP32 ha demostrado ser altamente beneficioso y eficaz en el desarrollo de soluciones para la Internet de las Cosas (IoT). Al comprender su versatilidad, capacidad de controlar entradas y salidas digitales, así como su 
+                        fácil integración con el entorno de Arduino, queda claro que este módulo es una herramienta invaluable para la creación de proyectos inteligentes y conectados. Con su amplio abanico de posibilidades y su robusta funcionalidad, el NodeMCU se posiciona como una opción destacada en el 
+                        panorama de la tecnología IoT, impulsando la innovación y facilitando la materialización de ideas en el mundo digital.
+                    </p>
+
+
+                       
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2024</div></div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

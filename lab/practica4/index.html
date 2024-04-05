@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 4 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Responsive navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#!">Redes digitales</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../../">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../../teorico/">Teórico</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../../lab/">Laboratorio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../../conocenos/">Conócenos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de redes digitales</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Redes locales</h1>
+
+                    </header>
+                </div>
+            </section>
+            
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">En esta práctica, se busca proporcionar una comprensión integral del funcionamiento de una página web mediante la combinación de varios elementos clave. Estos elementos incluyen PHP, un servidor local, un servidor en la nube y la conectividad del módulo ESP8266.
+                            PHP es un lenguaje de programación del lado del servidor ampliamente utilizado para el desarrollo web, un servidor local es un entorno de desarrollo que se ejecuta en el propio ordenador del usuario, el servidor en la nube es un servifor remoto accesible a través de internet que aloja y ejecuta aplicaciones web,
+                            por útlimo, el módulo ESP8266 es un chip wi-fi de bajo costo y alto rendimiento que utiliza comunmente en proyectos de internet de las coas (IoT).
+                        </p>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Desarrollo -</h2>
+                        <p><b>1. Desarrollar la pagína web</b></p>
+                        <p>Utilizando bloc de notas se desarrolló una página web con código PHP que permitiera actualizar el valor de un sensor. </p>
+                        <p><b>2. Despliegue en servidor local utilizando XAMPP</b></p>
+                        <p>Para este paso, se utilizó XAMPP para colocar la página web en un servidor local. El archivo "index.php" se guardó en la carpeta "htdocs" dentro del directorio de instalación de XAMPP. Luego, se iniciaron los servicios de Apache desde el Panel de Control de XAMPP. 
+                            Posteriormente, se abrió un navegador web y se accedió a "http://localhost" para verificar el correcto funcionamiento de la página web y su capacidad para actualizar los valores del sensor.
+                            También se comprobó el acceso a la página web del servidor.
+                        </p>
+                        <p><b>3. Modificación de datos desde otra computadora mediante conexión con el servidor local</b></p>
+                        <p>Se realizó la modificación de datos de la página web de PHP desde otra computadora, estableciendo una conexión con el servidor local utilizando la dirección IP correspondiente y la estructura de URL adecuada.</p>
+                        <p><b>4. Subida de la página web de PHP a un servidor en la nube</b></p>
+                        <p>Se procedió a subir la página web de PHP a un servidor en la nube y se visualizó en el explorador con la dirección web proporcionada por el servidor. Se verificó su funcionamiento directo desde el explorador.</p>
+                        <p><b>5. Utilización de NodeMCU y un ejemplo de GET para modificar datos desde el servidor local y en la nube:</b></p>
+                        <p>Se utilizó el NodeMCU junto con un ejemplo de GET para establecer una conexión con el servidor local y modificar los datos de la página web de PHP. La petición GET utilizada fue del tipo: "http://192.168.0.X/?A=1&B=3". Posteriormente, se repitió el proceso para conectar el NodeMCU a la página web 
+                            alojada en el servidor en la nube.
+                        </p>
+
+                    <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resultados -</h2>
+
+                    <p id="video">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" ><li>Conexión</li></h2>
+                        <center>
+                            <video width="640" height="360" controls>
+                                <source src="vid/p4vid.mp4" type="video/mp4">
+                        </center>
+
+                    <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Conclusión -</h2>
+                    <p>Esta práctica proporcionó una comprensión integral del funcionamiento integral de una página web, así como la interacción entre diferentes elementos como PHP, servidores locales, servidores en la nube y dispositivos IoT como NodeMCU. Se pudo verificar cómo estos elementos trabajan en conjunto para permitir la actualización dinámica de datos en una página web, tanto desde el servidor local como desde un servidor en la nube, 
+                        demostrando la versatilidad y la importancia de estas tecnologías en el desarrollo web actual.
+                    </p>
+
+
+                       
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2024</div></div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
